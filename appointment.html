@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>clinic Website</title>
+    <script type="text/javascript"> 
+	
+      function validate()
+	  {
+	  if(document.myform.name.value==""|| document.myform.name.value.length>8)
+	  {
+	  alert("pleas provide name");
+	  document.myform.name.focus();
+	  return false ;
+	  }
+	  
+	  if(document.myform.email.value=="")
+	  {
+	  alert("pleas provide email");
+	  document.myform.email.focus();
+	  return false ;
+	  }
+	   if(document.myform.doctor.value=="")
+	  {
+	  alert("pleas provide doctor");
+	  document.myform.doctor.focus();
+	  return false ;
+	  }
+	   if(document.myform.massge.value=="-1")
+	  {
+	  alert("pleas provide massge");
+	  document.myform.massge.focus();
+	  return false ;
+	  }
+	  }
+    </script>
+</head>
+<body>
+	<header>
+     
+        <a  class="logo_clinic" href="clinicproject.html" width="30px" hight="10px"><img src="apple-touch-icon.png" alt=""></a>
+          <nav class="navigation">
+            
+            <ul>
+                <li><a href="clinicproject.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="doctors.html">DOCTORS</a></li>
+                <li><a href="clinicproject.html">Service</a></li>
+                <li><a href="appointment.html">+registration</a></li>
+            </ul>
+          </nav>
+      </header>
+
+     <!-------------------------appointment  ------------------------->
+<section  id="amointmentlink">
+    <h3 class="amointment" id="amointment"><span>+</span>registration </h3> 
+    <div class="Contact-col">
+      <form name="myform" onsubmit="return (validate());">
+        <input type="text" aria-placeholder="Enter Your Name" name="name" required>
+        <input type="email" aria-placeholder="Enter email Address" name="email" required>
+        <input type="text" aria-placeholder="Enter Your subject" name="doctor" required>
+        <textarea  rows="8" placeholder="Message" name="massge" required></textarea> 
+        <button type="submit" class="hero-btn red-btn">regist</button>
+      </form>
+  
+  </div>
+  </section>
+  
+      
+  </body>
+</html>

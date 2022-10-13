@@ -1,0 +1,546 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+/*******************************naavvvv bar*********************/
+header{
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo_clinic{
+    float: left;
+    padding: 15px 15px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #1fb2df;
+    font-weight: 150;
+    font-size: 2.8em;
+}
+
+.header a{
+    text-decoration: none;
+    color: #1fb2df;
+    font-weight: 50;
+    font-size: 1.8em;
+    width: 60px;
+    height: 10px;
+}
+
+.navigation {
+    flex:2;
+    text-align: right;
+}
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+   /* position: relative;*/
+   
+}
+.navigation a {
+    color: #1fb2df;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+     
+}
+
+.navigation ul li :hover{
+    font-size: 20px;
+    color: #1cb9b9;
+    text-transform: uppercase;
+    transition: all .7s ease 0s;
+   
+    padding: 14px 10px;
+    font-weight:inherit;
+}
+/******************************* end naavvvv bar*********************/
+/*************************header****************/
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    left: 50%;
+    top:50%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background:url(img/price-bg.png) no-repeat;
+    background-color: linear-gradient(rgba(4 , 9 , 30 , 0.7) , rgba(4 , 9 , 30 , 0.7)) url(imgs/langara-science5.jpg) ;
+    background-size:  cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+
+.main_alig
+{
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.main h1{
+    color: #ffffff;
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: sans-serif;
+
+        font-size: 35px;
+        text-transform: none;
+        font-weight: 400;
+        letter-spacing: -1px;
+      
+        margin: 5px 0;
+        padding: 0;
+        position: relative;
+    
+}
+.main h1 span{
+    display: inline-block;
+    margin-top:10px ;
+    color:#ffffff;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3{
+    color: #ffffff;
+    font-size: 1.10em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    /*letter-spacing: 1px;*/
+}
+
+.main-btn:hover{
+    border: 1px solid #2daf91;
+    background: #b1eee0;
+    transition: 1s;
+}
+/*********************end header******************/
+ /*************************what we do **************************/
+ .clinics
+ {
+     margin-top: -60px;
+     width:60%;
+     height: 50%;
+     background: -moz-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+     background: -webkit-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+     background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-bottom: 25px;
+     flex-basis: 22%;
+ }
+ .img-responsive  {
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+ .aboutdoctors h4{
+      
+     font-family: 'Poppins', sans-serif;
+     font-size: 35px;
+     text-transform: none;
+     font-weight: 400;
+     letter-spacing: -1px;
+     color: #333;
+     
+     margin-bottom: 10px;
+     padding: 0;
+     position: relative;
+ }
+ .aboutdoctors h2{
+      
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     text-transform: none;
+     font-weight: 400;
+     letter-spacing: -1px;
+     color: #333;
+     
+     margin-bottom: 10px;
+     padding: 0;
+     position: relative;
+ }
+ 
+ .message-box .main-btn{
+     margin-top: 30px;
+     display: inline-block;
+     text-decoration: none;
+     color: #ffffff;
+     border: 2px solid #ffffff;
+     padding: 12px 34px;
+     font-size: 15px;
+    /* background: transparent;*/
+    background: -moz-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+    background: -webkit-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+     position: relative;
+     cursor: pointer;
+     /*letter-spacing: 1px;*/
+ }
+ .message-box .main-btn:hover{
+     border: 1px solid #ffffff;
+     background: #b4e0ee;
+     transition: 0.5s;
+ }
+ .continer {
+     text-align: center;
+     padding: 10px 20px;
+   }
+   
+ .message-box .main-btn:hover{
+   border: 1px solid #ffffff;
+   background: #b4e0ee;
+   transition: 0.5s;
+ } 
+
+/*----------------------------service we ofeerrr -----------------------*/
+.contenerr{
+    text-align: left;
+    margin: 70px;
+    line-height: 1.4;
+	font-size: 20px;
+
+}
+.contenerr p 
+{
+    line-height: 1.4;
+  padding-top: 12px;
+    padding-right: 70%;
+}
+.contrnrey img{
+    padding-left: 160px; 
+  width: 20%;
+  height: 20%;
+}
+
+
+.service{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1%;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #666e70;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+   /* padding:10px;*/
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service-time {
+    float: left;
+    width: 100%;
+    min-height: 350px;
+    margin-top: -350px;
+    padding: 50px;
+    color: #fff;
+    position: relative;
+}
+.Faci-col img{
+    float: right;
+    width: 40px;
+}
+.row{
+    
+     display: flex;
+    justify-content: space-between;
+ /*   margin: 50px;*/
+}
+
+.service-col{
+    flex-basis: 30%;
+    background: -moz-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+    background: -webkit-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding:20px 5px;
+    box-sizing: border-box;
+    transition: 0.9s;
+    
+}
+.service-col img{
+    width: 60px;
+    
+}
+
+.service-col p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+}
+.service-col h2
+{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.row-col
+{
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-between;
+}
+.service h1{
+    color: #188caf;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.service-col:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
+}
+/********************************************************end service*******/
+/*-----------doctor_section----------*/
+.doctor_section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  /*  padding-top: ;*/
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -70px;
+}
+.doctor_section h2{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #333;
+    margin-top:-50px ;
+    margin-bottom: 70px;
+    padding: 0;
+    position: relative;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*********************doctors section******************************/
+.doctorimg{
+    display: flex;
+    justify-content: space-between;
+   flex-basis: 5%;
+    
+}
+.polaroid {
+    width: 20%;
+   background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(49, 152, 236, 0.2), 0 6px 20px 0 rgba(156, 160, 218, 0.19);
+    margin-bottom: 25px;
+    flex-basis: 37%;
+  }
+   /*********doctors botom***********/
+.main-btoon{
+    color: #666e70;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color:  #666e70;
+  box-shadow: 0 4px 8px 0 rgba(49, 152, 236, 0.2), 0 6px 20px 0 rgba(156, 160, 218, 0.19);
+  border: 2px  ;
+  padding: 14px 90px;
+  font-size: 15px;
+ /* background: transparent;*/
+
+  position: relative;
+  cursor: pointer;
+  /*letter-spacing: 1px;*/
+}
+.main-btoon:hover{
+    border: 1px solid #ffffff;
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    transition: 0.5s;
+}
+
+  /**************************end doctors**************************/
+  
+/**************************serves**************************/
+
+
+
+/**********************apointement**************************/
+
+.Contact-Us{
+    width: 80%;
+    margin: auto;
+
+}
+.Contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+
+}
+
+.Contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Contact-col div.fa{
+    font-size: 28px;
+        color: ;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.Contact-col div p{
+    padding: 0;
+
+}
+
+.Contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+.Contact-col input, .Contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.hero-btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #f0f0f0;
+        border: 1px solid #f0f0f0;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        margin-top: -70px;
+        /*letter-spacing: 1px;*/
+}
+
+.amointment {
+    float: left;
+    margin: 0;
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+    width: 100%;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+    
+.hero-btn:hover{
+        border: 1px solid white;
+        background: -moz-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+        background: -webkit-linear-gradient(left, #1d86df 0%, #39b49a 100%);
+        background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);;
+        transition: 1s;
+    }
+    
+.red-btn{
+    border: 2px solid #b9bcc0 ;
+    background: transparent;
+    color:#000000;
+}
+.red-btn:hover{
+    color: #fff;
+}
+ /* ========================================*/
+
+/*******************locaton************/
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+
+.location iframe{
+    width: 100%;
+
+}
+
+/************************foooter ***************************/
+.contact {  background-color:#e6f2f5 ; 
+    overflow:hidden;
+     padding-top:50px; 
+     padding-bottom:70px;}
+
+.contact .info{ width:50%; 
+     margin-right:5%;}	
+
+.contact h2{ color:rgb(107, 93, 93); 
+    margin-left:40px; }	
+
+.contact p{ color:#72787c; margin-left:40px;}	
+
+
+
+
+
+/* start footer */
+.footer {
+   background-color: #e6f2f5;;
+   color:#959ba0;
+   padding:20px 0;
+   text-align:center;
+   overflow:hidden;
+}
+
+.text-center {
+    text-align: center;
+  }
+  

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="clinic wibsite ">
+ 
+    <title>clinic Website</title>
+    <script type="text/javascript"> 
+	
+   function validate()
+	  {
+      var ltters="[A-Za-z]";
+    if (document.myform.name.value.match(ltters))
+   {
+    return false;
+  }
+  else{
+    alert("plesee inter alfabet");
+    return false
+  }
+
+	  if(document.myform.name.value=="")
+	  {
+	  alert("pleas provide name");
+	  document.myform.name.focus();
+	  return false ;
+	  }
+    if(document.myform.name.value.length>8)
+	  {
+	  alert("too long");
+	  document.myform.name.focus();
+	  return false ;
+	  }
+	  
+	  if(document.myform.email.value=="")
+	  {
+	  alert("pleas provide email");
+	  document.myform.email.focus();
+	  return false ;
+	  }
+	   if(document.myform.doctor.value=="")
+	  {
+	  alert("pleas provide doctor");
+	  document.myform.doctor.focus();
+	  return false ;
+	  }
+	   if(document.myform.massge.value=="-1")
+	  {
+	  alert("pleas provide massge");
+	  document.myform.massge.focus();
+	  return false ;
+	  }
+	  }
+    </script>
+</head>
+<body>
+<!--------------------------------nav section------------------------>
+    <header>
+     
+      <a  class="logo_clinic" href="clinicproject.html" width="30px" hight="10px"><img src="apple-touch-icon.png" alt=""></a>
+        <nav class="navigation">
+          
+          <ul>
+              <li><a href="clinicproject.html">HOME</a></li>
+              <li><a href="#aboutdoctors">ABOUT</a></li>
+              <li><a href="#doctor_section">DOCTORS</a></li>
+              <li><a href="#contenerrr">Service</a></li>
+              <li><a href="appointment.html">+ registration</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <section class="main">
+        <div class="main_alig">
+        <p>
+        <h1>WELLCOME <br><span>HEALTH CARE CENTER</span></h1>
+        <h3>A primary care physician (PCP), or primary care provider, is a health care professional who practices general medicine. PCPs are our first stop for medical care"</h3>
+        <a href="#amointmentlink" class="main-btn">+ Book Appointment</a>
+        </p>
+    </div>
+    </section>
+
+    <!--------------------------------what we do ------------------------>
+    <section id="aboutdoctors"> 
+        <div class="row">
+            <div class="aboutdoctors">
+               <div class="message-box">
+                  <h4>What We Do</h4>
+                  <h2>Clinic Service</h2>
+                  <p class="lead">At Al-Shifa Clinic, we value the health and safety of all of our patients, staff, volunteers, and providers.<br> We recognize how important our work is in the community, and as such we will continue to.  provide high quality free health care in the midst of the COVID-19 (CoronaVirus) Pandemic. <br>We are now providing telemedicine appointments for our patients! Please contact us to schedule an appointment..</p>
+                  
+                  <a href="about.html" data-scroll="" class="main-btn">more</a>
+               </div>
+              
+            </div>
+           
+            <div class="aboutdoctors">
+               <div  style="visibility: visible; animation-name: fadeIn;">
+                 <img src="images/about_03.jpg" alt="" class="img-responsive">
+                 
+               </div>
+             
+            </div>
+        
+         </div>
+     </section>
+      <!--------------------------------what we do ------------------------>
+
+     <section class="controlcenter">
+      <div class="doctorimg">
+          <div class="clinics">
+              <img src="images/clinic_01.jpg" alt="5 Terre" style="width:100%">
+              <div class="continer">
+              <p style="color: white;">Cinque Terre</p>
+              </div>
+            </div>
+            <div class="clinics">
+              <img src="images/clinic_02.jpg" alt="Norther Lights" style="width:100%">
+              <div class="continer">
+              <p style="color: white;">Northern Lights</p>
+              </div>
+            </div>
+            <div class="clinics">
+              <img src="images/clinic_03.jpg" alt="Norther Lights" style="width:100%">
+              <div class="continer">
+              <p  style="color: white;">Northern Lights</p>
+              </div>
+            </div>
+            <div class="clinics">
+              <img src="images/clinic_01.jpg" alt="Norther Lights" style="width:100%">
+              <div class="continer">
+              <p style="color: white;">Northern Lights</p>
+              </div>
+            </div>
+            </div>
+          </section>
+        <!-----------------------------servises we over -------------------------->   
+
+   <p  id="contenerrr"align="CENTER" font-size="40px"> clinic service</p>
+   <p align="CENTER" >Al-Shifa provides services in general medicine, women’s health, and dentistry. <br> Although there may be some specialty referrals, the clinic’s major emphasis is on primary health care. Not only do we provide quality healthcare in primary care,<br> but we also have a network of specialists who provide quality health care in other areas. <br>These specialists provide specialty care through Al-Shifa Clinic as well as through their own offices.</p>
+     <!-----servess------>
+     <div class="contenerr"  >
+    </div>
+      </div>
+      <section class="service" id="service">
+        <div class="row">
+            <div class="service-col">
+                <a href="appointment.html"><img src="images/service-icon1.png" alt=""></a>
+                <h2>PREMIUM FACILITIES</h2>
+                <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+                    pellentesque aliquet nulla, eleifend faucibus est 
+                </p>
+            </div>
+            <div class="service-col">
+                <h3><img src="images/service-icon2.png" alt=""></h3>
+                <h2>LARGE LABORATORY</h2>
+                <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+                    pellentesque aliquet nulla, eleifend faucibus est 
+                   
+                </p>
+            </div>
+            
+            <div class="service-col">
+                <a href="appointment.html"><img src="images/service-icon3.png" alt=""></a>
+                <h2>DETAILED SPECIALIST</h2>
+                <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+                    pellentesque aliquet nulla, eleifend faucibus 
+                </p>
+            </div>
+        </div>
+         </section>
+         <div class="contenerr ">
+        </div>
+          </div>
+          <section class="service">
+           
+            <div class="row-col">
+                <div class="service-col">
+                    <a href="appointment.html"><img src="images/service-icon4.png" alt=""></a>
+                    <h2>CHILDREN CARE CENTER</h2>
+                    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+                        pellentesque aliquet nulla, eleifend faucibus est 
+                       
+                    </p>
+                </div>
+                <div class="service-col">
+                    <h3><img src="images/service-icon5.png" alt=""></h3>
+                    <h2>FINE INFRASTRUCTURE</h2>
+                    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+                        pellentesque aliquet nulla, eleifend faucibus est 
+                       
+                    </p>
+                </div>
+                
+                <div class="service-col">
+                    <a href="appointment.html"><img src="images/service-icon6.png" alt=""></a>
+                   <h2> ANYTIME BLOOD BANK</h2>
+                    <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+                        pellentesque aliquet nulla, eleifend faucibus est 
+                        
+                    </p>
+                </div>
+            </div>
+             </section>
+     <!--------------------------------doctors section --------------------------------->
+
+     <section  id="doctor_section" class="doctor_section">
+    
+         <h2>The Best Doctors </h2>
+       
+      <div class="doctorimg">
+        <div class="polaroid">
+           <a href="appointment.html"> <img src="img/doctors/doctor_3.jpg" alt="5 Terre" style="width:100%"></a>
+            <div class="continer">
+              <p>Dr. Stein Albert
+              </p>
+                            <p> Cardiology</p>
+            </div>
+          </div>
+          
+          <div class="polaroid">
+            <a href="appointment.html"> <img src="images/doctor_02.jpg" alt="Norther Lights" style="width:100%"></a>
+            <div class="continer">
+              <p>Dr. omar Albert
+              </p>
+                            <p>skin poster</p>
+            </div>
+          </div>
+          <div class="polaroid">
+            <a href="appointment.html">  <img src="img/doctors/doctor_1.jpg" alt="Norther Lights" style="width:100%"></a>
+            <div class="continer">
+              <p>Dr. ali Albert
+              </p>
+             <p>filler</p>
+            </div>
+          </div>
+         
+        </div>
+        <a href="doctors.html" class="main-btoon">Moree Doctors</a>
+     </section>
+
+
+
+      <!-------------------------cuntact us  ------------------------->
+<section  id="amointmentlink">
+  <h3 class="amointment" id="amointment"><span>+</span> Book Appointment</h3> 
+  <div class="Contact-col">
+    <form name="myform" onsubmit="return (validate());">
+      <input type="text" aria-placeholder="Enter Your Name" name="name" required>
+      <input type="email" aria-placeholder="Enter email Address" name="email" required>
+      <input type="text" aria-placeholder="Enter Your subject" name="doctor" required>
+      <textarea  rows="8" placeholder="Message" name="massge" required></textarea> 
+      <button type="submit" class="hero-btn red-btn">Send MessageS</button>
+    </form>
+
+</div>
+</section>
+<!------------------------------------------------------------------------------>
+
+
+      <!-------------------------location ------------------------->
+      <p align="center">CLINIC PHYSICAL ADDRESS:
+        2334 North Sierra Way, San Bernardino CA 92405</p>
+     <section  class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5211.447174797312!2d-123.10855!3d49.224769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36606d221509fdfe!2sLangara%20College!5e0!3m2!1sar!2sca!4v1647889540904!5m2!1sar!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+  </section>
+   <!-------------------------foter ------------------------->
+   
+   <div class="contact" >
+    <div class="container">
+   <div class="info fl-left">
+    <p>contat us :</p>
+   <p>09100505463063</p><p>530534035344404</p><p> </p>
+   
+     <p>HOURS: PLEASE NOTE OUR HOURS MAY VARY DEPENDING ON VOLUNTEER AVAILABILITY
+       <br>
+      Tuesday- 9:00am-5:00pmbr
+      <br>
+      Wednesday- 9:00am-5:00pmb <br>
+      Thursday- 9:00am-5:00pm <br>
+      Friday- 9:00am-5:00pm <br>
+      Saturday- 9:00-1:00pm</p>
+   </p>
+   </div>
+
+  </div></div>
+
+
+<!--------------------------------------------------------------------------------------->
+
+   <div class="footer">
+   <div class="container">
+   <span class="fl-left">Design 2022&copy;ebtehal sefaw habli</span>
+   
+   </div></div>
+  
+    
+</body>                      
+</html>
